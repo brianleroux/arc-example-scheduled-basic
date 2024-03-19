@@ -1,0 +1,14 @@
+{
+  "architect": {
+    "app": "schedule-example",
+    "scheduled": {
+      "daily": { "src": ".", "rate": "1 minute" }
+    }
+  },
+  "scripts": {
+    "start": "arc deploy --dry-run"
+  },
+  "dependencies": {
+    "@architect/deploy": "^5.0.3"
+  }
+}
